@@ -10,4 +10,10 @@ public class HerokuDeneme {
 	public String hello() {
 		return "hello";
 	}
+	
+	@RequestMapping("/deneme")
+	public String deneme() {
+		
+		return "deneme";
+	}
 }
