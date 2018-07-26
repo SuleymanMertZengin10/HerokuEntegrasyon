@@ -16,4 +16,9 @@ public class HerokuDeneme {
 		
 		return "deneme";
 	}
+	@RequestMapping("/deneme2")
+	public String deneme2() {
+		
+		return "deneme2";
+	}
 }
